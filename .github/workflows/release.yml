@@ -10,7 +10,6 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '12'
-        check-latest: true
     - run: npm install --global release-it
     - run: export NODE_PATH=`npm root -g`; release-it --ci --config release/release-it-release.json
       env:

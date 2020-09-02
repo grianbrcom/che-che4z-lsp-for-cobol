@@ -29,7 +29,7 @@ class VersionExtractor extends Plugin {
         return this.userChangelog.changelog;
     }
 
-    beforeRelease() {
+    bump() {
         const { isDryRun } = this.global;
         if (!isDryRun) {
             this.userChangelog.updateFile();

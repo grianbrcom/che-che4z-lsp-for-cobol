@@ -6,7 +6,8 @@ All notable changes to the COBOL Language Support extension are documented in th
 Hello there again!!!
 
 
-## [0.15.2](https://github.com/eclipse/che-che4z-lsp-for-cobol/compare/0.13.0...0.14.0) (2020-08-31)
+## [0.15.2](https://github.com/eclipse/che-che4z-lsp-for-cobol/compare/0.13.0...0.14.0) (2020-09-01)
+
 
 Hello there!!!
 

@@ -26,6 +26,11 @@ jobs:
       run: npm install --global release-it@13.7.0
     - name: Install Node dependencies
       run: cd clients/cobol-lsp-vscode-extension; npm ci
+    - name: Install the telemetry key
+      run: echo "$THE_KEY" > TELEMETRY_KEY
+      working-directory: clients/cobol-lsp-vscode-extension/resources
+      env:
+        THE_KEY: ${{ secrets.TELEMETRY_INSTRUMENTATION_KEY }}
     - name: Make a release
       run: cd clients/cobol-lsp-vscode-extension; export NODE_PATH=`npm root -g`; release-it --ci --config ../../release/release-it-release.json
       env:

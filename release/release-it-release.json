@@ -8,7 +8,8 @@
     "assets": "cobol-language-support-*.vsix"
   },
   "git": {
-    "commitMessage": "Release: ${version}"
+    "commitMessage": "Release: ${version}",
+    "requireCleanWorkingDir": false
   }, 
   "npm": {
           "publish": false

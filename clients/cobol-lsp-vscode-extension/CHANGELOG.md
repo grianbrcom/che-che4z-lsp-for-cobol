@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to the COBOL Language Support extension are documented in this file.
 
+## [0.17.0](https://github.com/eclipse/che-che4z-lsp-for-cobol/compare/0.14.0...0.17.0) (2020-09-30)
+
+### Bug Fixes
+* update the telem key
+
 ## [0.15.0](https://github.com/eclipse/che-che4z-lsp-for-cobol/compare/0.14.0...0.15.0) (2020-09-30)
 
 #### Added
